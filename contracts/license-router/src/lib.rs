@@ -10,7 +10,7 @@ use soroban_sdk::{
 
 mod quality_oracle {
     soroban_sdk::contractimport!(
-        file = "../../target/wasm32v1-none/release/quality_oracle.wasm"
+        file = "fixtures/quality_oracle.wasm"
     );
 }
 
